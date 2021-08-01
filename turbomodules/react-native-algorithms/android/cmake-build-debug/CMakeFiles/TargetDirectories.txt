@@ -1,3 +1,0 @@
-/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles/cpp.dir
