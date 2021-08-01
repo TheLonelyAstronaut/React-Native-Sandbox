@@ -19,3 +19,6 @@ void AlgorithmsCore::getShortestGraphPath() {
     AlgorithmsCore::_object->_dijkstra->getShortestGraphPath();
 }
 
+void AlgorithmsCore::clear() {
+    AlgorithmsCore::_object.reset();
+}

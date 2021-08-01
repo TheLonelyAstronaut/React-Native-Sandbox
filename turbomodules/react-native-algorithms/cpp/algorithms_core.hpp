@@ -36,7 +36,7 @@ public:
     void setJNIEnv(JNIEnv *jniEnv);
     #endif
 
-    static void clean();
+    static void clear();
     static void getShortestGraphPath();
 }
 
