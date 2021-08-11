@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AlgorithmsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlgorithmsExampleTests.m */; };
+		0D9B646526C463BA0066969E /* HeaderGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B646426C463BA0066969E /* HeaderGenerator.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		250A4708FF380968E66E6EDB /* libPods-AlgorithmsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD9AEF7E2E12D17AA3CB8A /* libPods-AlgorithmsExample.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* AlgorithmsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlgorithmsExampleTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FBF62640E86497FDA2483EC7 /* libPods-AlgorithmsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC657CC3D1B921F2993C9EBA /* libPods-AlgorithmsExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		00E356EE1AD99517003FC87E /* AlgorithmsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AlgorithmsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmsExampleTests.m; sourceTree = "<group>"; };
+		0D9B646326C463BA0066969E /* AlgorithmsExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmsExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D9B646426C463BA0066969E /* HeaderGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGenerator.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AlgorithmsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AlgorithmsExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AlgorithmsExample/AppDelegate.m; sourceTree = "<group>"; };
@@ -49,10 +52,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlgorithmsExample/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AlgorithmsExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlgorithmsExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AlgorithmsExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlgorithmsExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ACD9AEF7E2E12D17AA3CB8A /* libPods-AlgorithmsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorithmsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		697E284FC4B5DC8352D9C0B4 /* Pods-AlgorithmsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsExample.release.xcconfig"; path = "Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AlgorithmsExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8337515A9CB265D09F5CE0C6 /* Pods-AlgorithmsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsExample.release.xcconfig"; path = "Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample.release.xcconfig"; sourceTree = "<group>"; };
-		908256B4C2295609B05838F2 /* Pods-AlgorithmsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsExample.debug.xcconfig"; path = "Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AEE076B27BC76073D020AD /* Pods-AlgorithmsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsExample.debug.xcconfig"; path = "Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DC657CC3D1B921F2993C9EBA /* libPods-AlgorithmsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlgorithmsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250A4708FF380968E66E6EDB /* libPods-AlgorithmsExample.a in Frameworks */,
+				FBF62640E86497FDA2483EC7 /* libPods-AlgorithmsExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,16 +110,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0B0BE831C45AD9C86D743FEB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				908256B4C2295609B05838F2 /* Pods-AlgorithmsExample.debug.xcconfig */,
-				8337515A9CB265D09F5CE0C6 /* Pods-AlgorithmsExample.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* AlgorithmsExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +124,21 @@
 			name = AlgorithmsExample;
 			sourceTree = "<group>";
 		};
+		2071A7234DDEC4171AB54221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEE076B27BC76073D020AD /* Pods-AlgorithmsExample.debug.xcconfig */,
+				697E284FC4B5DC8352D9C0B4 /* Pods-AlgorithmsExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6ACD9AEF7E2E12D17AA3CB8A /* libPods-AlgorithmsExample.a */,
+				DC657CC3D1B921F2993C9EBA /* libPods-AlgorithmsExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,12 +153,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0D9B646426C463BA0066969E /* HeaderGenerator.swift */,
 				13B07FAE1A68108700A75B9A /* AlgorithmsExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AlgorithmsExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0B0BE831C45AD9C86D743FEB /* Pods */,
+				2071A7234DDEC4171AB54221 /* Pods */,
+				0D9B646326C463BA0066969E /* AlgorithmsExample-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -199,14 +203,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlgorithmsExample" */;
 			buildPhases = (
-				02725306E87C1EA8100199BB /* [CP] Check Pods Manifest.lock */,
+				F5356BC3A93730A6D97D7D94 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0B7D2B04F033D18D0A00AB97 /* [CP] Embed Pods Frameworks */,
-				8EF3E1307B8F5740B9B544AF /* [CP] Copy Pods Resources */,
+				91D23300201FC8D33E5ED93D /* [CP] Embed Pods Frameworks */,
+				72E16EA3B3B0B5A3A82287A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,7 +271,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -350,7 +354,57 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		02725306E87C1EA8100199BB /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		72E16EA3B3B0B5A3A82287A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D23300201FC8D33E5ED93D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5356BC3A93730A6D97D7D94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,56 +424,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0B7D2B04F033D18D0A00AB97 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		8EF3E1307B8F5740B9B544AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgorithmsExample/Pods-AlgorithmsExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -476,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				0D9B646526C463BA0066969E /* HeaderGenerator.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +521,7 @@
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -538,6 +544,7 @@
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = AlgorithmsExampleTests/Info.plist;
@@ -556,7 +563,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 908256B4C2295609B05838F2 /* Pods-AlgorithmsExample.debug.xcconfig */;
+			baseConfigurationReference = C5AEE076B27BC76073D020AD /* Pods-AlgorithmsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -571,6 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.reactnativealgorithms;
 				PRODUCT_NAME = AlgorithmsExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmsExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -579,7 +587,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8337515A9CB265D09F5CE0C6 /* Pods-AlgorithmsExample.release.xcconfig */;
+			baseConfigurationReference = 697E284FC4B5DC8352D9C0B4 /* Pods-AlgorithmsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -593,6 +601,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.reactnativealgorithms;
 				PRODUCT_NAME = AlgorithmsExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmsExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

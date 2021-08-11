@@ -1,7 +1,8 @@
 #import "Algorithms.h"
 #import <React/RCTBridge+Private.h>
 #import <React/RCTUtils.h>
-#import "algorithms_core.hpp"
+#import "AlgorithmsExtension.h"
+//#import "react_native_algorithms-Swift.h"
 
 @implementation Algorithms
 
@@ -24,11 +25,13 @@ RCT_EXPORT_MODULE()
       return;
     }
   
-    AlgorithmsCore::initialize(*(jsi::Runtime *)cxxBridge.runtime);
+    AlgorithmsExtension::initialize(*(jsi::Runtime *)cxxBridge.runtime);
+    
+    //NativeDijkstra *test = [[NativeDijkstra alloc] init];
 }
 
 - (void)invalidate {
-    AlgorithmsCore::clean();
+    AlgorithmsCore::clear();
 }
 
 @end

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E46D8CD2428F78900513E24 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E46D8CB2428F78900513E24 /* example.cpp */; };
+		0D9B645826C461E60066969E /* NativeDijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B645726C461E60066969E /* NativeDijkstra.swift */; };
+		0D9B646126C4637E0066969E /* algorithms_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B645D26C4637E0066969E /* algorithms_core.cpp */; };
+		0D9B646226C4637E0066969E /* dijkstra_algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B646026C4637E0066969E /* dijkstra_algorithm.cpp */; };
 		5E555C0D2413F4C50049A1A2 /* Algorithms.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Algorithms.mm */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +26,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D9B645626C461E60066969E /* Algorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D9B645726C461E60066969E /* NativeDijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeDijkstra.swift; sourceTree = "<group>"; };
+		0D9B645B26C462EA0066969E /* Algorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
+		0D9B645C26C4637E0066969E /* algorithms_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = algorithms_core.h; path = ../cpp/algorithms_core.h; sourceTree = "<group>"; };
+		0D9B645D26C4637E0066969E /* algorithms_core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = algorithms_core.cpp; path = ../cpp/algorithms_core.cpp; sourceTree = "<group>"; };
+		0D9B645F26C4637E0066969E /* dijkstra_algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dijkstra_algorithm.h; sourceTree = "<group>"; };
+		0D9B646026C4637E0066969E /* dijkstra_algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dijkstra_algorithm.cpp; sourceTree = "<group>"; };
+		0D9B646E26C47A170066969E /* NativeDijkstra_CppExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDijkstra_CppExtension.h; sourceTree = "<group>"; };
+		0D9B646F26C47A170066969E /* react-native-algorithms-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "react-native-algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libAlgorithms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlgorithms.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E46D8CB2428F78900513E24 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = ../cpp/example.cpp; sourceTree = "<group>"; };
-		5E46D8CC2428F78900513E24 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = ../cpp/example.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* Algorithms.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Algorithms.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9B645E26C4637E0066969E /* dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				0D9B645F26C4637E0066969E /* dijkstra_algorithm.h */,
+				0D9B646026C4637E0066969E /* dijkstra_algorithm.cpp */,
+			);
+			name = dijkstra;
+			path = ../cpp/dijkstra;
+			sourceTree = "<group>";
+		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +71,16 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				5E46D8CB2428F78900513E24 /* example.cpp */,
-				5E46D8CC2428F78900513E24 /* example.h */,
+				0D9B646E26C47A170066969E /* NativeDijkstra_CppExtension.h */,
+				0D9B646F26C47A170066969E /* react-native-algorithms-Bridging-Header.h */,
+				0D9B645D26C4637E0066969E /* algorithms_core.cpp */,
+				0D9B645C26C4637E0066969E /* algorithms_core.h */,
+				0D9B645E26C4637E0066969E /* dijkstra */,
+				0D9B645B26C462EA0066969E /* Algorithms.h */,
+				0D9B645726C461E60066969E /* NativeDijkstra.swift */,
 				B3E7B5891CC2AC0600A0062D /* Algorithms.mm */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				0D9B645626C461E60066969E /* Algorithms-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +115,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -116,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E46D8CD2428F78900513E24 /* example.cpp in Sources */,
 				5E555C0D2413F4C50049A1A2 /* Algorithms.mm in Sources */,
+				0D9B646226C4637E0066969E /* dijkstra_algorithm.cpp in Sources */,
+				0D9B645826C461E60066969E /* NativeDijkstra.swift in Sources */,
+				0D9B646126C4637E0066969E /* algorithms_core.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +178,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -200,9 +230,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -220,32 +252,41 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Algorithms;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Algorithms;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithms-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

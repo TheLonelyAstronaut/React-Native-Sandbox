@@ -4,10 +4,10 @@ import { StyleSheet, View, Text } from 'react-native';
 import Algorithms from 'react-native-algorithms';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<string | undefined>();
 
   React.useEffect(() => {
-    Algorithms.multiply(3, 8).then(setResult);
+    setResult(Algorithms.getShortestGraphPath());
   }, []);
 
   return (

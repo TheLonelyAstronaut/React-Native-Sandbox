@@ -1,9 +1,17 @@
-import { NativeModules } from 'react-native';
+//import { NativeModules } from 'react-native';
+
+declare function getShortestGraphPath(): string;
 
 type AlgorithmsType = {
-  multiply(a: number, b: number): Promise<number>;
+  getShortestGraphPath(): string;
 };
 
-const { Algorithms } = NativeModules;
+//const { Algorithms } = NativeModules;
 
-export default Algorithms as AlgorithmsType;
+//const _module = Algorithms as AlgorithmsType;
+
+//_module.getShortestGraphPath = getShortestGraphPath;
+
+export default {
+  getShortestGraphPath
+} as AlgorithmsType;
