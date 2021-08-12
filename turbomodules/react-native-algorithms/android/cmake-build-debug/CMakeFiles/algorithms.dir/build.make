@@ -106,9 +106,22 @@ CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp -o CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s
 
+CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o: ../src/main/cpp/AlgorithmsExtension.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o -c /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/src/main/cpp/AlgorithmsExtension.cpp
+
+CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/src/main/cpp/AlgorithmsExtension.cpp > CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.i
+
+CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/src/main/cpp/AlgorithmsExtension.cpp -o CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.s
+
 CMakeFiles/algorithms.dir/cpp-adapter.cpp.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/cpp-adapter.cpp.o: ../cpp-adapter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/algorithms.dir/cpp-adapter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/algorithms.dir/cpp-adapter.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/cpp-adapter.cpp.o -c /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cpp-adapter.cpp
 
 CMakeFiles/algorithms.dir/cpp-adapter.cpp.i: cmake_force
@@ -123,6 +136,7 @@ CMakeFiles/algorithms.dir/cpp-adapter.cpp.s: cmake_force
 algorithms_OBJECTS = \
 "CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o" \
 "CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o" \
+"CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o" \
 "CMakeFiles/algorithms.dir/cpp-adapter.cpp.o"
 
 # External object files for target algorithms
@@ -130,10 +144,11 @@ algorithms_EXTERNAL_OBJECTS =
 
 libalgorithms.dylib: CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o
 libalgorithms.dylib: CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o
+libalgorithms.dylib: CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o
 libalgorithms.dylib: CMakeFiles/algorithms.dir/cpp-adapter.cpp.o
 libalgorithms.dylib: CMakeFiles/algorithms.dir/build.make
 libalgorithms.dylib: CMakeFiles/algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libalgorithms.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libalgorithms.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

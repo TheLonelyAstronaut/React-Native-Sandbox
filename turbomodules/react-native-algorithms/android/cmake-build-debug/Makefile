@@ -227,6 +227,33 @@ cpp-adapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/cpp-adapter.cpp.s
 .PHONY : cpp-adapter.cpp.s
 
+src/main/cpp/AlgorithmsExtension.o: src/main/cpp/AlgorithmsExtension.cpp.o
+
+.PHONY : src/main/cpp/AlgorithmsExtension.o
+
+# target to build an object file
+src/main/cpp/AlgorithmsExtension.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o
+.PHONY : src/main/cpp/AlgorithmsExtension.cpp.o
+
+src/main/cpp/AlgorithmsExtension.i: src/main/cpp/AlgorithmsExtension.cpp.i
+
+.PHONY : src/main/cpp/AlgorithmsExtension.i
+
+# target to preprocess a source file
+src/main/cpp/AlgorithmsExtension.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.i
+.PHONY : src/main/cpp/AlgorithmsExtension.cpp.i
+
+src/main/cpp/AlgorithmsExtension.s: src/main/cpp/AlgorithmsExtension.cpp.s
+
+.PHONY : src/main/cpp/AlgorithmsExtension.s
+
+# target to generate assembly for a file
+src/main/cpp/AlgorithmsExtension.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.s
+.PHONY : src/main/cpp/AlgorithmsExtension.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -245,6 +272,9 @@ help:
 	@echo "... cpp-adapter.o"
 	@echo "... cpp-adapter.i"
 	@echo "... cpp-adapter.s"
+	@echo "... src/main/cpp/AlgorithmsExtension.o"
+	@echo "... src/main/cpp/AlgorithmsExtension.i"
+	@echo "... src/main/cpp/AlgorithmsExtension.s"
 .PHONY : help
 
 

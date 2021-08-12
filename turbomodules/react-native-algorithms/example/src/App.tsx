@@ -1,18 +1,15 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Button, Alert } from 'react-native';
 import Algorithms from 'react-native-algorithms';
 
 export default function App() {
-  const [result, setResult] = React.useState<string | undefined>();
-
-  React.useEffect(() => {
-    setResult(Algorithms.getShortestGraphPath());
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Button
+        title={'Get result'}
+        onPress={() => Alert.alert(Algorithms.getShortestGraphPath())}
+      />
     </View>
   );
 }

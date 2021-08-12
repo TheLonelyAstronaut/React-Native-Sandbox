@@ -6,7 +6,7 @@ import com.facebook.react.module.annotations.ReactModule
 
 class AlgorithmsModule(reactContext: ReactApplicationContext?) : ReactContextBaseJavaModule(reactContext) {
   override fun getName(): String {
-    return "BePaid"
+    return "Algorithms"
   }
 
   companion object {

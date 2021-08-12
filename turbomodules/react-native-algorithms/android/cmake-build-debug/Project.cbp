@@ -45,6 +45,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../cpp"/>
+					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/./src/main/cpp"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/React"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/React/Base"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/ReactCommon/jsi"/>
@@ -70,6 +71,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../cpp"/>
+					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/./src/main/cpp"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/React"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/React/Base"/>
 					<Add directory="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/../node_modules/react-native/ReactCommon/jsi"/>
@@ -89,6 +91,12 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cpp-adapter.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/src/main/cpp/AlgorithmsExtension.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/src/main/cpp/AlgorithmsExtension.h">
 			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp">

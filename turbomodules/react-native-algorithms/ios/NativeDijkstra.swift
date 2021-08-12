@@ -17,6 +17,6 @@ import Foundation
     }
     
     @objc public func getShortestGraphPath() -> String {
-        return "Shortest path from Swift Azazaza"
+        return "Shortest path from Swift"
     }
 }

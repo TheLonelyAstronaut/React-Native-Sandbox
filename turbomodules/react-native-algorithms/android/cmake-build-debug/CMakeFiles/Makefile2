@@ -97,12 +97,12 @@ clean: CMakeFiles/algorithms.dir/clean
 CMakeFiles/algorithms.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target algorithms"
 .PHONY : CMakeFiles/algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/algorithms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/algorithms.dir/rule

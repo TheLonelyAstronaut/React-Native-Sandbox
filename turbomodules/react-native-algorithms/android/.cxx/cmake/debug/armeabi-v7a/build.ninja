@@ -60,21 +60,28 @@ build CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-San
   DEFINES = -Dalgorithms_EXPORTS
   DEP_FILE = CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=c++1z
-  INCLUDES = -I../../../../../cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
+  INCLUDES = -I../../../../../cpp -I../../../.././src/main/cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
   OBJECT_DIR = CMakeFiles/algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi
 build CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o: CXX_COMPILER__algorithms /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp || cmake_object_order_depends_target_algorithms
   DEFINES = -Dalgorithms_EXPORTS
   DEP_FILE = CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=c++1z
-  INCLUDES = -I../../../../../cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
+  INCLUDES = -I../../../../../cpp -I../../../.././src/main/cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
   OBJECT_DIR = CMakeFiles/algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp
+build CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o: CXX_COMPILER__algorithms ../../../../src/main/cpp/AlgorithmsExtension.cpp || cmake_object_order_depends_target_algorithms
+  DEFINES = -Dalgorithms_EXPORTS
+  DEP_FILE = CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=c++1z
+  INCLUDES = -I../../../../../cpp -I../../../.././src/main/cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
+  OBJECT_DIR = CMakeFiles/algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithms.dir/src/main/cpp
 build CMakeFiles/algorithms.dir/cpp-adapter.cpp.o: CXX_COMPILER__algorithms ../../../../cpp-adapter.cpp || cmake_object_order_depends_target_algorithms
   DEFINES = -Dalgorithms_EXPORTS
   DEP_FILE = CMakeFiles/algorithms.dir/cpp-adapter.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=c++1z
-  INCLUDES = -I../../../../../cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
+  INCLUDES = -I../../../../../cpp -I../../../.././src/main/cpp -I../../../../../node_modules/react-native/React -I../../../../../node_modules/react-native/React/Base -I../../../../../node_modules/react-native/ReactCommon/jsi
   OBJECT_DIR = CMakeFiles/algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithms.dir
 
@@ -85,7 +92,7 @@ build CMakeFiles/algorithms.dir/cpp-adapter.cpp.o: CXX_COMPILER__algorithms ../.
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libalgorithms.so
 
-build ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libalgorithms.so: CXX_SHARED_LIBRARY_LINKER__algorithms CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o CMakeFiles/algorithms.dir/cpp-adapter.cpp.o | /Users/vadzim/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libalgorithms.so: CXX_SHARED_LIBRARY_LINKER__algorithms CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o CMakeFiles/algorithms.dir/src/main/cpp/AlgorithmsExtension.cpp.o CMakeFiles/algorithms.dir/cpp-adapter.cpp.o | /Users/vadzim/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -llog -latomic -lm
