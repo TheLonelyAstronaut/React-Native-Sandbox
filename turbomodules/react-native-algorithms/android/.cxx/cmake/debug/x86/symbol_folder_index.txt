@@ -1,0 +1,1 @@
+/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/build/intermediates/cmake/debug/obj/x86

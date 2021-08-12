@@ -4,22 +4,15 @@ import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ViewManager
-import java.util.ArrayList
-import java.util.Collections
-import java.util.List
 
 class AlgorithmsPackage : ReactPackage {
-  @NonNull
-  @Override
-  fun createNativeModules(@NonNull reactContext: ReactApplicationContext?): List<NativeModule> {
-    val modules: List<NativeModule> = ArrayList()
+  override fun createNativeModules(reactContext: ReactApplicationContext): MutableList<NativeModule> {
+    val modules: MutableList<NativeModule> = mutableListOf()
     modules.add(AlgorithmsModule(reactContext))
     return modules
   }
 
-  @NonNull
-  @Override
-  fun createViewManagers(@NonNull reactContext: ReactApplicationContext?): List<ViewManager> {
-    return Collections.emptyList()
+  override fun createViewManagers(reactContext: ReactApplicationContext): MutableList<ViewManager<*, *>> {
+    return mutableListOf()
   }
 }

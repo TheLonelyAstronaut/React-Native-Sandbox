@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "algorithms-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86_64",
+        "algorithms"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "algorithms",
+      "output": "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/build/intermediates/cmake/debug/obj/x86_64/libalgorithms.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

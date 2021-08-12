@@ -134,44 +134,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cpp
+# Target rules for targets named algorithms
 
 # Build rule for target.
-cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp
-.PHONY : cpp
+algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algorithms
+.PHONY : algorithms
 
 # fast build rule for target.
-cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
-.PHONY : cpp/fast
+algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
+.PHONY : algorithms/fast
 
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.o: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.o
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.o: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o
 
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.o
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.o
 
 # target to build an object file
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.o
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.o
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o
 
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.i: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.i
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.i: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.i
 
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.i
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.i
 
 # target to preprocess a source file
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.i
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.i
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.i
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.i
 
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.s: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.s
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.s: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s
 
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.s
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.s
 
 # target to generate assembly for a file
-Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.s
-.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp.s
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.s
+
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.o: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o
+
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.o
+
+# target to build an object file
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o
+
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.i: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.i
+
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.i
+
+# target to preprocess a source file
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.i
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.i
+
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.s: Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.s
+
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.s
+
+# target to generate assembly for a file
+Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.s
+.PHONY : Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.s
 
 cpp-adapter.o: cpp-adapter.cpp.o
 
@@ -179,7 +206,7 @@ cpp-adapter.o: cpp-adapter.cpp.o
 
 # target to build an object file
 cpp-adapter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/cpp-adapter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/cpp-adapter.cpp.o
 .PHONY : cpp-adapter.cpp.o
 
 cpp-adapter.i: cpp-adapter.cpp.i
@@ -188,7 +215,7 @@ cpp-adapter.i: cpp-adapter.cpp.i
 
 # target to preprocess a source file
 cpp-adapter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/cpp-adapter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/cpp-adapter.cpp.i
 .PHONY : cpp-adapter.cpp.i
 
 cpp-adapter.s: cpp-adapter.cpp.s
@@ -197,7 +224,7 @@ cpp-adapter.s: cpp-adapter.cpp.s
 
 # target to generate assembly for a file
 cpp-adapter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/cpp-adapter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/cpp-adapter.cpp.s
 .PHONY : cpp-adapter.cpp.s
 
 # Help Target
@@ -208,10 +235,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cpp"
-	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.o"
-	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.i"
-	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.s"
+	@echo "... algorithms"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.o"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.i"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.s"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.o"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.i"
+	@echo "... Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.s"
 	@echo "... cpp-adapter.o"
 	@echo "... cpp-adapter.i"
 	@echo "... cpp-adapter.s"

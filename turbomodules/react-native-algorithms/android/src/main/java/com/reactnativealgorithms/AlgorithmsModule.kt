@@ -1,19 +1,17 @@
 package com.reactnativealgorithms
 
-import com.facebook.react.bridge.Promise
-import com.facebook.react.bridge.ReactApplicationContext
-import com.facebook.react.bridge.ReactContextBaseJavaModule
-import com.facebook.react.bridge.ReactMethod
+import android.util.Log
+import com.facebook.react.bridge.*
 import com.facebook.react.module.annotations.ReactModule
 
-@ReactModule(name = AlgorithmsModule.name)
 class AlgorithmsModule(reactContext: ReactApplicationContext?) : ReactContextBaseJavaModule(reactContext) {
+  override fun getName(): String {
+    return "BePaid"
+  }
 
   companion object {
-    override val name = "Algorithms"
-
-    external fun initializeNativeAlgorithmsModule(jsiPointer: Long): Unit
-    external fun clearNativeAlgorithmsModule(): Unit
+    external fun initializeNativeAlgorithmsModule(jsiPointer: Long)
+    external fun clearNativeAlgorithmsModule()
 
     init {
       try {
@@ -22,17 +20,20 @@ class AlgorithmsModule(reactContext: ReactApplicationContext?) : ReactContextBas
 
       }
     }
-  }
 
-  override fun initialize() {
-    super.initialize()
+    fun install(jsContext: JavaScriptContextHolder?) {
+      Log.e("ERROR TEST TAG", "INSTALLING JSI MODULE")
+      Log.d("JSC", jsContext?.get().toString())
 
-    initializeNativeAlgorithmsModule(
-      AlgorithmsModule.getReactApplicationContext().getJavaScriptContextHolder().get()
-    )
+      val internalJsContext = jsContext?.get()
+
+      if(internalJsContext != null) {
+        initializeNativeAlgorithmsModule(internalJsContext)
+      }
+    }
   }
 
   override fun onCatalystInstanceDestroy() {
-    AlgorithmsModule.clearNativeAlgorithmsModule()
+    clearNativeAlgorithmsModule()
   }
 }

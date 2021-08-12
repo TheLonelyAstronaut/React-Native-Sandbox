@@ -1,0 +1,8 @@
+# ninja log v5
+1	749	1628764233	CMakeFiles/algorithms.dir/cpp-adapter.cpp.o	2be62aba41c26035
+1	978	1628764233	CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o	972fdd8496fffcd2
+0	1083	1628764233	CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o	4351400254c4decb
+1083	1235	1628764233	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithms.so	61aafb0695987db9
+1	791	1628767032	CMakeFiles/algorithms.dir/cpp-adapter.cpp.o	2be62aba41c26035
+1	997	1628767032	CMakeFiles/algorithms.dir/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/algorithms_core.cpp.o	972fdd8496fffcd2
+997	1195	1628767032	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithms.so	535309a24ba5bc80

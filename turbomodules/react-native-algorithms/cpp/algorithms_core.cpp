@@ -1,7 +1,10 @@
 #include "algorithms_core.h"
+#include <iostream>
 //#include "NativeDijkstra_CppExtension.h"
 
 DijkstraAlgorithm AlgorithmsCore::_dijkstra;
+
+//#include <android/log.h>
 
 #ifdef ON_ANDROID
 static std::unique_ptr<JNIEnv> _nativeInterface;
@@ -10,19 +13,19 @@ static jclass type;
 
 void AlgorithmsCore::initialize(jsi::Runtime &jsiRuntime) {
     auto propName = jsi::PropNameID::forAscii(jsiRuntime, "getShortestGraphPath");
-    
+
     auto resolver = [](jsi::Runtime& runtime, const jsi::Value& thisValue, const jsi::Value* arguments, size_t count) {
-        printf("Shotrest graph path...");
-        
+        printf("Shortest graph path...");
+
         auto result = AlgorithmsCore::_dijkstra();
-    
+
         return jsi::Value(runtime, jsi::String::createFromAscii(runtime, result.c_str()));
     };
-    
+
     auto paramsCount = 0;
-    
+
     auto getShortestGraphPath = jsi::Function::createFromHostFunction(jsiRuntime, propName, paramsCount, resolver);
-    
+
     jsiRuntime.global().setProperty(jsiRuntime, "getShortestGraphPath", std::move(getShortestGraphPath));
 }
 

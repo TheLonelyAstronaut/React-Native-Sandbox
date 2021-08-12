@@ -26,8 +26,6 @@ RCT_EXPORT_MODULE()
     }
   
     AlgorithmsExtension::initialize(*(jsi::Runtime *)cxxBridge.runtime);
-    
-    //NativeDijkstra *test = [[NativeDijkstra alloc] init];
 }
 
 - (void)invalidate {

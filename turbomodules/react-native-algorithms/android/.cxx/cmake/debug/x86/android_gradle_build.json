@@ -1,47 +1,40 @@
-
 {
-	"buildFiles" : 
-	[
-		"/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/CMakeLists.txt"
-	],
-	"cleanCommands" : 
-	[
-		"/Users/vadzim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86 --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"cpp-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "cpp",
-			"buildCommand" : "/Users/vadzim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86 --target cpp",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcpp_EXPORTS -I../../../../../cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
-					"src" : "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/cpp/example.cpp",
-					"workingDirectory" : "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcpp_EXPORTS -I../../../../../cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
-					"src" : "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/cpp-adapter.cpp",
-					"workingDirectory" : "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86"
-				}
-			],
-			"output" : "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/build/intermediates/cmake/debug/obj/x86/libcpp.so",
-			"toolchain" : "10347724091041418046"
-		}
-	},
-	"toolchains" : 
-	{
-		"10347724091041418046" : 
-		{
-			"cCompilerExecutable" : "/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "algorithms-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/vadzim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/.cxx/cmake/debug/x86",
+        "algorithms"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "algorithms",
+      "output": "/Users/vadzim/Documents/Projects/React-Native-Sandbox/turbomodules/react-native-algorithms/android/build/intermediates/cmake/debug/obj/x86/libalgorithms.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

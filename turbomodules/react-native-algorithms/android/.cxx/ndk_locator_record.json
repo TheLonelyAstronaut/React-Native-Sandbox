@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/vadzim/Library/Android/sdk/ndk/22.1.7171670",
+  "ndkFolder": "/Users/vadzim/Library/Android/sdk/ndk/23.0.7599858",
   "messages": [
     {
       "level": "INFO",
@@ -23,6 +23,10 @@
     },
     {
       "level": "INFO",
+      "message": "Considering /Users/vadzim/Library/Android/sdk/ndk/23.0.7599858 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
       "message": "Considering /Users/vadzim/Library/Android/sdk/ndk/21.1.6352462 in SDK ndk folder"
     },
     {
@@ -35,7 +39,7 @@
     },
     {
       "level": "INFO",
-      "message": "No user requested version, choosing /Users/vadzim/Library/Android/sdk/ndk/22.1.7171670 which is version 22.1.7171670"
+      "message": "No user requested version, choosing /Users/vadzim/Library/Android/sdk/ndk/23.0.7599858 which is version 23.0.7599858"
     }
   ]
 }
